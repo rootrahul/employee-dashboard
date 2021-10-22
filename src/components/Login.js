@@ -83,12 +83,12 @@ const Login = () => {
         <hr />
         <br />
         <label>
-          Email ID: <input type="email" value={email} onChange={isEmailValid} />
+          Email ID: <input type="email" value={email} placeholder="Enter Email ID" onChange={isEmailValid} />
         </label>
         <p>{emailError}</p>
         <label>
           Password:{" "}
-          <input type="password" value={password} onChange={isPasswordValid} />
+          <input type="password" value={password} placeholder="Enter Password" onChange={isPasswordValid} />
         </label>
         <p>{passError}</p>
         <p>{message}</p>
