@@ -1,0 +1,39 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Inter";
+}
+
+#logout__button {
+  width: 10%;
+  padding: 10px;
+  margin-top: 10px;
+  background: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Inter";
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.employee__details {
+  width: 80%;
+  height: 70%;
+}
