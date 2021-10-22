@@ -14,7 +14,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email != "" && password != "") {
+    if (email !== "" && password !== "") {
       setMessage("");
       dispatch(
         login({
@@ -37,7 +37,7 @@ const Login = () => {
     let atPosition = em.indexOf("@");
     let dotPosition = em.lastIndexOf(".");
 
-    if (em == "") {
+    if (em === "") {
       setEmailError("**Email cannot be empty");
     } else if (
       atPosition < 1 ||
